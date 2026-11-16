@@ -9,6 +9,7 @@
  * ------------------------------------------------------------------------
  */
 
+namespace {
 define('PLUGIN_SSOLOGIN_TESTING', true);
 
 if (!defined('GLPI_ROOT')) {
@@ -221,6 +222,7 @@ if (!class_exists('Html')) {
             echo '</form>';
         }
     }
+}
 }
 
 namespace Glpi\Toolbox {
