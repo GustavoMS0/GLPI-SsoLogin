@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <name>SSO Login</name>
+   <key>ssologin</key>
+   <state>stable</state>
+   <logo>https://raw.githubusercontent.com/GustavoMS0/GLPI-SsoLogin/main/ssologin.png</logo>
+   <description>
+      <short>
+         <en>Single Sign-On (OpenID Connect / OAuth 2.0 with PKCE S256) authentication for GLPI.</en>
+         <pt>Autenticação Single Sign-On (OpenID Connect / OAuth 2.0 com PKCE S256) para o GLPI.</pt>
+      </short>
+      <long>
+         <en>Integrates GLPI 10, 11, and 12 with OpenID Connect and OAuth 2.0 identity providers (Microsoft Entra ID, Keycloak, Google Workspace, Okta, Authentik) using Authorization Code Flow with PKCE S256, anti-SSRF endpoint validation, AES-256-GCM secret encryption at rest, and audit logging.</en>
+         <pt>Integra o GLPI 10, 11 e 12 com provedores de identidade OpenID Connect e OAuth 2.0 (Microsoft Entra ID, Keycloak, Google Workspace, Okta, Authentik) utilizando Authorization Code Flow com PKCE S256, validação anti-SSRF de endpoints, segredo cifrado em repouso com AES-256-GCM e trilha de auditoria.</pt>
+      </long>
+   </description>
+   <homepage>https://github.com/GustavoMS0/GLPI-SsoLogin</homepage>
+   <download>https://github.com/GustavoMS0/GLPI-SsoLogin/releases</download>
+   <issues>https://github.com/GustavoMS0/GLPI-SsoLogin/issues</issues>
+   <readme>https://github.com/GustavoMS0/GLPI-SsoLogin/blob/main/README.md</readme>
+   <changelog>https://github.com/GustavoMS0/GLPI-SsoLogin/blob/main/CHANGELOG.md</changelog>
+   <authors>
+      <author>G. Martins</author>
+   </authors>
+   <versions>
+      <version>
+         <num>1.0.0</num>
+         <compatibility>~10.0.0 || ~11.0.0 || ~12.0.0</compatibility>
+         <download_url>https://github.com/GustavoMS0/GLPI-SsoLogin/releases/download/v1.0.0/ssologin-1.0.0.zip</download_url>
+      </version>
+   </versions>
+   <langs>
+      <lang>pt_BR</lang>
+   </langs>
+   <license>GPLv3+</license>
+   <tags>
+      <en>
+         <tag>sso</tag>
+         <tag>oidc</tag>
+         <tag>oauth2</tag>
+         <tag>pkce</tag>
+         <tag>authentication</tag>
+         <tag>security</tag>
+      </en>
+      <pt>
+         <tag>sso</tag>
+         <tag>oidc</tag>
+         <tag>oauth2</tag>
+         <tag>pkce</tag>
+         <tag>autenticacao</tag>
+         <tag>seguranca</tag>
+      </pt>
+   </tags>
+</root>

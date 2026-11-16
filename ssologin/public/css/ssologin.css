@@ -1,0 +1,37 @@
+/**
+ * ------------------------------------------------------------------------
+ * SSO Login - Estilos de botao de login e painel administrativo
+ *
+ * Copyright (C) 2026 by G. Martins
+ * Licensed under GPLv3+
+ * ------------------------------------------------------------------------
+ */
+
+.ssologin-login-container {
+    margin: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.ssologin-login-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 340px;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.ssologin-login-icon {
+    font-size: 1.05rem;
+}
+
+.ssologin-admin-wrap {
+    max-width: 1120px;
+    margin: 1rem auto;
+}

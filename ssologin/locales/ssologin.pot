@@ -1,0 +1,144 @@
+# SSO Login gettext template
+# Copyright (C) 2026 by G. Martins
+# This file is distributed under the same license as the SSO Login package (GPLv3+).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.0\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "SSO Login"
+msgstr "Login SSO"
+
+msgid "Invalid URL for %1$s: %2$s"
+msgstr "URL inválida para %1$s: %2$s"
+
+msgid "Client ID is required when SSO is enabled."
+msgstr "O Client ID é obrigatório quando o SSO está habilitado."
+
+msgid "Authorize URL and Token URL are required when SSO is enabled."
+msgstr "As URLs de Autorização e de Token são obrigatórias quando o SSO está habilitado."
+
+msgid "SSO Login is disabled."
+msgstr "O Login SSO está desabilitado."
+
+msgid "SSO Login configuration is incomplete."
+msgstr "A configuração do Login SSO está incompleta."
+
+msgid "Sign in with %s"
+msgstr "Entrar com %s"
+
+msgid "Old SSO audit logs have been purged."
+msgstr "Os registros antigos de auditoria SSO foram removidos."
+
+msgid "SSO configuration saved successfully."
+msgstr "Configuração de SSO salva com sucesso."
+
+msgid "Secret configured (leave blank to keep current)"
+msgstr "Segredo configurado (deixe em branco para manter o atual)"
+
+msgid "Enter OAuth2 client secret"
+msgstr "Informe o segredo do cliente OAuth2"
+
+msgid "OpenID Connect / OAuth 2.0 Settings (PKCE S256)"
+msgstr "Configurações OpenID Connect / OAuth 2.0 (PKCE S256)"
+
+msgid "Enable SSO Login"
+msgstr "Habilitar Login SSO"
+
+msgid "Callback / Redirect URI (Read-Only)"
+msgstr "URI de Callback / Redirecionamento (Somente Leitura)"
+
+msgid "Identity Provider Display Name"
+msgstr "Nome de Exibição do Provedor de Identidade"
+
+msgid "Client ID"
+msgstr "Client ID"
+
+msgid "Client Secret (AES-256-GCM encrypted at rest)"
+msgstr "Client Secret (Cifrado em repouso com AES-256-GCM)"
+
+msgid "Clear stored Client Secret"
+msgstr "Limpar Client Secret armazenado"
+
+msgid "Issuer URL (HTTPS, optional)"
+msgstr "URL do Emissor / Issuer (HTTPS, opcional)"
+
+msgid "Authorization Endpoint URL (HTTPS)"
+msgstr "URL do Endpoint de Autorização (HTTPS)"
+
+msgid "Token Endpoint URL (HTTPS)"
+msgstr "URL do Endpoint de Token (HTTPS)"
+
+msgid "UserInfo Endpoint URL (HTTPS, recommended)"
+msgstr "URL do Endpoint UserInfo (HTTPS, recomendado)"
+
+msgid "OAuth2 Scopes"
+msgstr "Escopos OAuth2"
+
+msgid "Username Claim"
+msgstr "Claim de Nome de Usuário"
+
+msgid "Email Claim"
+msgstr "Claim de E-mail"
+
+msgid "User Matching Mode"
+msgstr "Modo de Vinculação de Usuário"
+
+msgid "Username or Verified Email (unique match)"
+msgstr "Nome de usuário ou E-mail verificado (correspondência única)"
+
+msgid "Verified Email only (unique match)"
+msgstr "Somente E-mail verificado (correspondência única)"
+
+msgid "Username only (unique match)"
+msgstr "Somente Nome de usuário (correspondência única)"
+
+msgid "HTTP Timeout (seconds, 3-30)"
+msgstr "Tempo limite HTTP (segundos, 3-30)"
+
+msgid "Audit Log Retention (days, 7-365)"
+msgstr "Retenção do Log de Auditoria (dias, 7-365)"
+
+msgid "Save Configuration"
+msgstr "Salvar Configuração"
+
+msgid "Purge Old Audit Logs"
+msgstr "Limpar Logs Antigos"
+
+msgid "Recent SSO Authentication Events"
+msgstr "Eventos Recentes de Autenticação SSO"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Event"
+msgstr "Evento"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "User ID"
+msgstr "ID do Usuário"
+
+msgid "Identifier"
+msgstr "Identificador"
+
+msgid "IP Address"
+msgstr "Endereço IP"
+
+msgid "Summary"
+msgstr "Resumo"
+
+msgid "No SSO events recorded yet."
+msgstr "Nenhum evento SSO registrado até o momento."
+
+msgid "SSO Login is currently unavailable. Please sign in with your local credentials."
+msgstr "O Login SSO está indisponível no momento. Faça login com suas credenciais locais."
+
+msgid "Single Sign-On authentication failed or account is not authorized."
+msgstr "Falha na autenticação Single Sign-On ou conta não autorizada."
