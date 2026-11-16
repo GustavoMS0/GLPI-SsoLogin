@@ -266,7 +266,7 @@ foreach ($redirectCases as $inputRedir => $expectedRedir) {
 // -------------------------------------------------------------------------
 // RFC 7636 Appendix B test vector
 $rfcVerifier  = 'dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk';
-$rfcChallenge = 'E9Melhoa2OwvFrZpTJguCHaoeK1t8URWbuGJSstw-cM';
+$rfcChallenge = 'E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM';
 $pkceRfc      = PluginSsologinOidc::generatePkcePair($rfcVerifier);
 assertSame($rfcChallenge, $pkceRfc['challenge'], 'PKCE S256 matches RFC 7636 test vector');
 assertSame('S256', $pkceRfc['method'], 'PKCE method is S256');
