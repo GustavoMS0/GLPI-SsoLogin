@@ -2,7 +2,7 @@
 <root>
    <name>SSO Login</name>
    <key>ssologin</key>
-   <state>stable</state>
+   <state>beta</state>
    <logo>https://raw.githubusercontent.com/GustavoMS0/GLPI-SsoLogin/main/ssologin.png</logo>
    <description>
       <short>

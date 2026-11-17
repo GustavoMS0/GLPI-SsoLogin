@@ -1,5 +1,9 @@
 # SSO Login (`ssologin`) — Plugin para GLPI 10 / 11 / 12
 
+> [!WARNING]
+> **Status: Em Desenvolvimento (Beta / Pré-homologação)**
+> Este plugin teve a arquitetura, a segurança e os fluxos validados por revisão de código, auditoria de segurança e testes unitários automatizados em CI (`PHP 7.4–8.3` com mocks de GLPI 10/11/12), mas **ainda não foi testado em uma instância GLPI ao vivo**. Valide em ambiente de homologação antes de usar em produção e reporte eventuais ajustes via Issues.
+
 Autenticação **Single Sign-On (OpenID Connect / OAuth 2.0 com PKCE `S256`)** para o GLPI, compatível com **Microsoft Entra ID (Azure AD)**, **Keycloak**, **Google Workspace**, **Okta**, **Authentik** e provedores OIDC padrão.
 
 ---
